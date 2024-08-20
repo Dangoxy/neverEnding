@@ -4,12 +4,14 @@
     <div class="flex h-full w-full flex-col items-center p-4">
       <div>
         <h1 class="text-[48px] font-medium">Whac-a-mole !</h1>
-        <div>
+        <div class="flex justify-between text-[20px]">
           <h1>Timer {{ timer }}</h1>
           <h1>Score {{ score }}</h1>
         </div>
       </div>
-      <div class="flex h-full w-full items-center justify-center">
+      <div
+        class="flex h-full w-full flex-col items-center justify-center gap-2"
+      >
         <div
           class="flex aspect-square w-1/2 max-w-[600px] flex-wrap items-center justify-around gap-2"
         >
@@ -50,15 +52,29 @@
           </div>
         </div>
         <!-- <button @click="resetMolesUp" class="m-4">reset</button> -->
-        <button @click="startGame" v-if="gameState === 'inactive'">
-          start
-        </button>
-        <button @click="restartGame" v-if="gameState === 'active'" class="m-4">
-          restart
-        </button>
-        <button @click="endGame" v-if="gameState === 'active'" class="m-4">
-          End game
-        </button>
+        <div class="flex items-center justify-center gap-2">
+          <button
+            @click="startGame"
+            v-if="gameState === 'inactive'"
+            class="poppins rounded-[8px] border-2 border-[#f0f0f0] px-4 py-1 text-[20px] font-semibold"
+          >
+            Start
+          </button>
+          <button
+            @click="restartGame"
+            v-if="gameState === 'active'"
+            class="poppins rounded-[8px] border-2 border-[#f0f0f0] px-4 py-1 text-[20px] font-semibold"
+          >
+            Restart
+          </button>
+          <button
+            @click="endGame"
+            v-if="gameState === 'active'"
+            class="poppins rounded-[8px] border-2 border-[#f0f0f0] px-4 py-1 text-[20px] font-semibold"
+          >
+            End game
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -104,6 +120,7 @@ function startGame() {
       timer.value -= 1;
     } else {
       clearInterval(interval.value);
+      endGame();
     }
   }, 1000);
 
@@ -147,3 +164,9 @@ function endGame() {
   resetMolesUp();
 }
 </script>
+
+<style>
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+</style>
