@@ -6,7 +6,7 @@ const router = createRouter({
   history: createWebHashHistory(),
   routes: [
     { name: "home", path: "/", component: Homepage },
-    { name: "p1", path: "/p1", component: Project1 },
+    { name: "p1", path: "/01-Whac-a-mole", component: Project1 },
   ],
 });
 export default router;

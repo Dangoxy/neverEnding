@@ -6,9 +6,9 @@
     >
       <router-link
         className="w-fit rounded-[8px] border-2 border-[#f0f0f0] px-4 py-2 text-[16px] font-medium text-[#f0f0f0]"
-        to="/p1"
+        to="/01-Whac-a-mole"
       >
-        Project 1
+        01) Whac-a-mole
       </router-link>
     </div>
   </div>
