@@ -1,7 +1,9 @@
 <template>
-  <div class="flex h-screen w-full flex-col bg-[#161616] text-[#f0f0f0]">
+  <div class="flex min-h-screen w-full flex-col bg-[#161616] text-[#f0f0f0]">
     <Navbar />
-    <div class="flex h-full w-full flex-col items-center p-4">
+    <div
+      class="flex h-full min-h-screen w-full flex-col items-center justify-center gap-8 p-4 pt-[52px]"
+    >
       <div>
         <h1 class="text-[48px] font-medium">Whac-a-mole !</h1>
         <div class="flex justify-between text-[20px]">
