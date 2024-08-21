@@ -8,3 +8,8 @@
 <p align="center">
   <img src="public/Whac-a-mole.gif" alt="Whac-a-mole gif" width="400" height="400" />
 </p>
+
+### **02) Login form**: A login form with some basic animations. (21/08/2024)
+<p align="center">
+  <img src="public/loginForm.gif" alt="Whac-a-mole gif" width="400" height="400" />
+</p>
