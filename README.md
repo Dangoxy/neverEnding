@@ -4,4 +4,5 @@
 
 ## Projects
 
-- **01 Whac-a-mole**: A Whac-a-mole minigame.
+**01 Whac-a-mole**: A Whac-a-mole minigame.
+[Whac-a-mole gif](public/Whac-a-mole.gif)
