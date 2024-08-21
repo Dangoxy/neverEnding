@@ -8,11 +8,12 @@
     >
       <div class="flex flex-row flex-wrap items-center justify-center gap-2">
         <ProjectCard
-          projectNumber="01"
-          title="Whac-a-mole"
-          pathToGif="../../public/Whac-a-mole.gif"
-          pathToImg="../../public/Whac-a-mole.png"
-          toPath="/01-Whac-a-mole"
+          v-for="project in projectsData"
+          :projectNumber="project.projectNumber"
+          :title="project.title"
+          :pathToGif="project.pathToGif"
+          :pathToImg="project.pathToImg"
+          :toPath="project.toPath"
         />
       </div>
     </div>
@@ -22,6 +23,7 @@
 <script setup lang="ts">
 import Navbar from "../components/Navbar.vue";
 import ProjectCard from "../components/ProjectCard.vue";
+import { projectsData } from "../projectsData";
 </script>
 
 <style></style>
