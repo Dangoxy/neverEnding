@@ -8,7 +8,7 @@ const router = createRouter({
   routes: [
     { name: "home", path: "/", component: Homepage },
     { name: "p1", path: "/01-Whac-a-mole", component: P01WhacAMole },
-    { name: "p2", path: "/02-LoginForm", component: P02LoginForm },
+    { name: "p2", path: "/02-Login-form", component: P02LoginForm },
   ],
 });
 export default router;

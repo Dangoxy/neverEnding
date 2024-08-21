@@ -8,10 +8,10 @@ let projectsData = [
   },
   {
     projectNumber: "02",
-    title: "LoginForm",
+    title: "Login form",
     pathToGif: "../../public/LoginForm.gif",
     pathToImg: "../../public/LoginForm.png",
-    toPath: "/02-LoginForm",
+    toPath: "/02-Login-form",
   },
 ];
 
