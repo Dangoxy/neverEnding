@@ -10,6 +10,6 @@
 </p>
 
 ### **02) Login form**: A login form with some basic animations. (21/08/2024)
-
-  <img src="public/loginForm.gif" alt="loginForm gif" width="400" height="400" />
-
+<p align="center">
+  <img src="public/loginForm.gif" alt="login form gif" width="400" height="400" />
+</p>
