@@ -4,6 +4,7 @@
 
 ## Projects
 
-**01 Whac-a-mole**: A Whac-a-mole minigame.
-
-<img src="public/Whac-a-mole.gif" alt="Whac-a-mole gif" width="400" height="400" />
+**01) Whac-a-mole**: A Whac-a-mole minigame.
+<p align="center">
+  <img src="public/Whac-a-mole.gif" alt="Whac-a-mole gif" width="400" height="400" />
+</p>
