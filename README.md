@@ -14,7 +14,7 @@
   <img src="public/LoginForm/LoginForm.gif" alt="login form gif" width="400" height="400" />
 </p>
 
-### **03) Mouse effect**: A fiery animated cursor effect. (21/08/2024)
+### **03) Mouse effect**: A fiery animated cursor effect. (22/08/2024)
 <p align="center">
   <img src="public/MouseEffect/MouseEffect.gif" alt="login form gif" width="400" height="400" />
 </p>
