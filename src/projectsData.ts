@@ -13,6 +13,13 @@ let projectsData = [
     pathToImg: "../../public/LoginForm.png",
     toPath: "/02-Login-form",
   },
+  {
+    projectNumber: "03",
+    title: "Mouse effect",
+    pathToGif: "../../public/MouseEffect.gif",
+    pathToImg: "../../public/MouseEffect.png",
+    toPath: "/03-Mouse-effect",
+  },
 ];
 
 export { projectsData };
