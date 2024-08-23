@@ -20,6 +20,13 @@ let projectsData = [
     pathToImg: "../../public/MouseEffect/MouseEffect.png",
     toPath: "/03-Mouse-effect",
   },
+  {
+    projectNumber: "04",
+    title: "Tic-tac-toe",
+    pathToGif: "../../public/Tic-tac-toe/Tic-tac-toe.gif",
+    pathToImg: "../../public/Tic-tac-toe/Tic-tac-toe.png",
+    toPath: "/04-Tic-tac-toe",
+  },
 ];
 
 export { projectsData };

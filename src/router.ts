@@ -4,6 +4,7 @@ import P01WhacAMole from "./views/P01WhacAMole.vue";
 import P02LoginForm from "./views/P02LoginForm.vue";
 import P03MouseEffect from "./views/P03MouseEffect.vue";
 import P00Template from "./views/P00Template.vue";
+import P04TicTacToe from "./views/P04TicTacToe.vue";
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -13,6 +14,7 @@ const router = createRouter({
     { name: "p1", path: "/01-Whac-a-mole", component: P01WhacAMole },
     { name: "p2", path: "/02-Login-form", component: P02LoginForm },
     { name: "p3", path: "/03-Mouse-effect", component: P03MouseEffect },
+    { name: "p4", path: "/04-Tic-Tac-Toe", component: P04TicTacToe },
   ],
 });
 export default router;
