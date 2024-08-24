@@ -27,6 +27,13 @@ let projectsData = [
     pathToImg: "../../public/Tic-tac-toe/Tic-tac-toe.png",
     toPath: "/04-Tic-tac-toe",
   },
+  {
+    projectNumber: "05",
+    title: "Hamburger-menu",
+    pathToGif: "../../public/Hamburger-menu/Hamburger-menu.gif",
+    pathToImg: "../../public/Hamburger-menu/Hamburger-menu.png",
+    toPath: "/05-Hamburger-menu",
+  },
 ];
 
 export { projectsData };
