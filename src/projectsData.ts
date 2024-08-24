@@ -29,9 +29,9 @@ let projectsData = [
   },
   {
     projectNumber: "05",
-    title: "Hamburger-menu",
-    pathToGif: "../../public/Hamburger-menu/Hamburger-menu.gif",
-    pathToImg: "../../public/Hamburger-menu/Hamburger-menu.png",
+    title: "Hamburger menu",
+    pathToGif: "../../public/HamburgerMenu/HamburgerMenu.gif",
+    pathToImg: "../../public/HamburgerMenu/HamburgerMenu.png",
     toPath: "/05-Hamburger-menu",
   },
 ];
