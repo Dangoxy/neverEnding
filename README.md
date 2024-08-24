@@ -18,3 +18,8 @@
 <p align="center">
   <img src="public/MouseEffect/MouseEffect.gif" alt="login form gif" width="400" height="400" />
 </p>
+
+### **04) Tic-tac-toe**: A simple Tic-tac-toe game. (23/08/2024)
+<p align="center">
+  <img src="public/Tic-tac-toe/Tic-tac-toe.gif" alt="Tic-tac-toe gif" width="400" height="400" />
+</p>
