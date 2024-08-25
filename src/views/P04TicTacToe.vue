@@ -21,7 +21,7 @@
           class="absolute flex h-full w-full items-center justify-center text-[32px] text-[#f1f1f1]"
           :style="{ textShadow: '1px 1px 4px black' }"
         >
-          <h1>You win!</h1>
+          <h1>{{ winner }} win!</h1>
         </div>
 
         <div
@@ -129,6 +129,7 @@ function checkWinCon() {
       congrats.value = true;
       setTimeout(() => {
         congrats.value = false;
+        winner.value = "";
       }, 1000);
       break;
     } else {
@@ -137,7 +138,6 @@ function checkWinCon() {
         table.value[a] === table.value[b],
         table.value[a] === table.value[c],
       );
-      winner.value = "";
     }
   }
 }
