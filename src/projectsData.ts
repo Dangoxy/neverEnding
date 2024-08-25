@@ -34,6 +34,13 @@ let projectsData = [
     pathToImg: "../../public/HamburgerMenu/HamburgerMenu.png",
     toPath: "/05-Hamburger-menu",
   },
+  {
+    projectNumber: "06",
+    title: "Hexagonal tube",
+    pathToGif: "../../public/HexagonalTube/HexagonalTube.gif",
+    pathToImg: "../../public/HexagonalTube/HexagonalTube.png",
+    toPath: "/06-Hexagonal-tube",
+  },
 ];
 
 export { projectsData };
