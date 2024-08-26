@@ -41,6 +41,13 @@ let projectsData = [
     pathToImg: "../../public/HectagonalTube/HectagonalTube.png",
     toPath: "/06-Hectagonal-tube",
   },
+  {
+    projectNumber: "07",
+    title: "Dropdown menu",
+    pathToGif: "../../public/DropdownMenu/DropdownMenu.gif",
+    pathToImg: "../../public/DropdownMenu/DropdownMenu.png",
+    toPath: "/07-Dropdown-menu",
+  },
 ];
 
 export { projectsData };
