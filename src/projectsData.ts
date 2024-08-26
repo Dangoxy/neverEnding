@@ -36,10 +36,10 @@ let projectsData = [
   },
   {
     projectNumber: "06",
-    title: "Hexagonal tube",
-    pathToGif: "../../public/HexagonalTube/HexagonalTube.gif",
-    pathToImg: "../../public/HexagonalTube/HexagonalTube.png",
-    toPath: "/06-Hexagonal-tube",
+    title: "Hectagonal tube",
+    pathToGif: "../../public/HectagonalTube/HectagonalTube.gif",
+    pathToImg: "../../public/HectagonalTube/HectagonalTube.png",
+    toPath: "/06-Hectagonal-tube",
   },
 ];
 

@@ -31,7 +31,7 @@
           class="relative h-32 w-96"
           :style="{
             'transform-style': 'preserve-3d',
-            transform: `rotateX(${-deltaY}deg) rotateY(${deltaX}deg`,
+            transform: `rotateX(${-deltaY}deg) rotateY(${deltaX}deg)`,
           }"
           @dblclick="open = !open"
         >

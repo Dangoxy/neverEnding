@@ -6,7 +6,7 @@ import P03MouseEffect from "./views/P03MouseEffect.vue";
 import P00Template from "./views/P00Template.vue";
 import P04TicTacToe from "./views/P04TicTacToe.vue";
 import P05HamburgerMenu from "./views/P05HamburgerMenu.vue";
-import P06HexagonalTube from "./views/P06HexagonalTube.vue";
+import P06HectagonalTube from "./views/P06HectagonalTube.vue";
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -18,7 +18,7 @@ const router = createRouter({
     { name: "p3", path: "/03-Mouse-effect", component: P03MouseEffect },
     { name: "p4", path: "/04-Tic-Tac-Toe", component: P04TicTacToe },
     { name: "p5", path: "/05-Hamburger-menu", component: P05HamburgerMenu },
-    { name: "p6", path: "/06-Hexagonal-tube", component: P06HexagonalTube },
+    { name: "p6", path: "/06-Hectagonal-tube", component: P06HectagonalTube },
   ],
 });
 export default router;
