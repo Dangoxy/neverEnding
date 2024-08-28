@@ -48,6 +48,13 @@ let projectsData = [
     pathToImg: "../../public/DropdownMenu/DropdownMenu.png",
     toPath: "/07-Dropdown-menu",
   },
+  {
+    projectNumber: "08",
+    title: "Animating-clock",
+    pathToGif: "../../public/AnimatingClock/AnimatingClock.gif",
+    pathToImg: "../../public/AnimatingClock/AnimatingClock.png",
+    toPath: "/08-Animating-clock",
+  },
 ];
 
 export { projectsData };

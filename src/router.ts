@@ -8,6 +8,7 @@ import P04TicTacToe from "./views/P04TicTacToe.vue";
 import P05HamburgerMenu from "./views/P05HamburgerMenu.vue";
 import P06HectagonalTube from "./views/P06HectagonalTube.vue";
 import P07DropdownMenu from "./views/P07DropdownMenu.vue";
+import P08AnimatingClock from "./views/P08AnimatingClock.vue";
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -21,6 +22,7 @@ const router = createRouter({
     { name: "p5", path: "/05-Hamburger-menu", component: P05HamburgerMenu },
     { name: "p6", path: "/06-Hectagonal-tube", component: P06HectagonalTube },
     { name: "p7", path: "/07-Dropdown-menu", component: P07DropdownMenu },
+    { name: "p8", path: "/08-Animating-clock", component: P08AnimatingClock },
   ],
 });
 export default router;
