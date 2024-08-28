@@ -55,6 +55,13 @@ let projectsData = [
     pathToImg: "../../public/AnimatingClock/AnimatingClock.png",
     toPath: "/08-Animating-clock",
   },
+  {
+    projectNumber: "09",
+    title: "Heads-or-Tails",
+    pathToGif: "../../public/HeadsOrTails/HeadsOrTails.gif",
+    pathToImg: "../../public/HeadsOrTails/HeadsOrTails.png",
+    toPath: "/09-Heads-or-Tails",
+  },
 ];
 
 export { projectsData };
