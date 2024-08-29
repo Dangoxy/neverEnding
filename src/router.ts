@@ -10,6 +10,7 @@ import P06HectagonalTube from "./views/P06HectagonalTube.vue";
 import P07DropdownMenu from "./views/P07DropdownMenu.vue";
 import P08AnimatingClock from "./views/P08AnimatingClock.vue";
 import P09HeadsOrTails from "./views/P09HeadsOrTails.vue";
+import P10FoldingBannners from "./views/P10FoldingBannners.vue";
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -25,6 +26,7 @@ const router = createRouter({
     { name: "p7", path: "/07-Dropdown-menu", component: P07DropdownMenu },
     { name: "p8", path: "/08-Animating-clock", component: P08AnimatingClock },
     { name: "p9", path: "/09-Heads-or-Tails", component: P09HeadsOrTails },
+    { name: "p10", path: "/10-Folding-banners", component: P10FoldingBannners },
   ],
 });
 export default router;

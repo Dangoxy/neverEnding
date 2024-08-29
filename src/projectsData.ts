@@ -50,17 +50,24 @@ let projectsData = [
   },
   {
     projectNumber: "08",
-    title: "Animating-clock",
+    title: "Animating clock",
     pathToGif: "../../public/AnimatingClock/AnimatingClock.gif",
     pathToImg: "../../public/AnimatingClock/AnimatingClock.png",
     toPath: "/08-Animating-clock",
   },
   {
     projectNumber: "09",
-    title: "Heads-or-Tails",
+    title: "Heads or Tails",
     pathToGif: "../../public/HeadsOrTails/HeadsOrTails.gif",
     pathToImg: "../../public/HeadsOrTails/HeadsOrTails.png",
     toPath: "/09-Heads-or-Tails",
+  },
+  {
+    projectNumber: "10",
+    title: "Folding banners",
+    pathToGif: "../../public/FoldingBanners/FoldingBanners.gif",
+    pathToImg: "../../public/FoldingBanners/FoldingBanners.png",
+    toPath: "/10-Folding-banners",
   },
 ];
 
