@@ -19,6 +19,7 @@
         </div>
         <div
           v-for="i in bannerCount"
+          @click="i === 9 ? reload() : ''"
           :id="`banner${i}`"
           class="relative flex h-16 w-96 flex-col items-center justify-center overflow-visible rounded bg-gradient-to-tr from-violet-300 from-[40%] to-cyan-300"
           :style="{
@@ -30,7 +31,8 @@
             :id="`string${i}`"
             class="absolute top-[-16px] z-20 h-4 w-0.5 bg-white opacity-0"
           ></div>
-          <h1>Banner {{ i }}</h1>
+          <h1 v-if="i !== 9">Banner {{ i }}</h1>
+          <h1 v-else>Restart</h1>
         </div>
       </div>
     </div>
@@ -39,9 +41,13 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import Navbar from "../components/Navbar.vue";
+import { useRouter } from "vue-router";
 
-let bannerCount = ref(8);
-
+let bannerCount = ref(9);
+let router = useRouter();
+function reload() {
+  window.location.reload();
+}
 setTimeout(() => {
   for (let i = 1; i < bannerCount.value + 1; i++) {
     setTimeout(() => {
