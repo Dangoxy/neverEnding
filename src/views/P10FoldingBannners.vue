@@ -21,7 +21,7 @@
           v-for="i in bannerCount"
           @click="i === 9 ? reload() : ''"
           :id="`banner${i}`"
-          class="relative flex h-16 w-96 flex-col items-center justify-center overflow-visible rounded bg-gradient-to-tr from-violet-300 from-[40%] to-cyan-300"
+          class="relative flex h-16 w-96 flex-col items-center justify-center overflow-visible rounded bg-gradient-to-tr from-[#c69874] from-[20%] to-[#b4afab]"
           :style="{
             transformStyle: 'preserve-3d',
             transform: 'rotateX(-90deg) perspective(100px)',
@@ -61,35 +61,37 @@ setTimeout(() => {
           {
             transform: "rotateX(0deg) rotateZ(0deg) perspective(100px)",
             marginTop: "16px",
-            offset: 0.5,
+            offset: 0.125,
+          },
+
+          {
+            transform: "rotateX(8deg) rotateZ(0.25deg) perspective(100px)",
+            marginTop: "16px",
+            offset: 0.3,
           },
           {
-            transform: "rotateX(8deg) rotateZ(0.5deg) perspective(100px)",
+            transform: "rotateX(-8deg) rotateZ(-0.25deg) perspective(100px)",
             marginTop: "16px",
-            offset: 0.6,
+            offset: 0.475,
           },
           {
-            transform: "rotateX(-8deg) rotateZ(-0.5deg) perspective(100px)",
+            transform: "rotateX(8deg) rotateZ(0.25deg) perspective(100px)",
             marginTop: "16px",
-            offset: 0.7,
+            offset: 0.65,
           },
           {
-            transform: "rotateX(8deg) rotateZ(0.5deg) perspective(100px)",
+            transform: "rotateX(-8deg) rotateZ(-0.25deg) perspective(100px)",
             marginTop: "16px",
-            offset: 0.8,
+            offset: 0.825,
           },
-          {
-            transform: "rotateX(-8deg) rotateZ(-0.5deg) perspective(100px)",
-            marginTop: "16px",
-            offset: 0.9,
-          },
+
           {
             transform: "rotateX(0deg) rotateZ(0deg) perspective(100px)",
             marginTop: "16px",
             offset: 1,
           },
         ],
-        { duration: 800, fill: "forwards" },
+        { duration: 3200, fill: "forwards" },
       );
       document.getElementById(`string${i}`)?.animate(
         [
