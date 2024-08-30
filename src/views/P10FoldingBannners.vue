@@ -89,7 +89,7 @@ setTimeout(() => {
             offset: 1,
           },
         ],
-        { duration: 1600, fill: "forwards" },
+        { duration: 800, fill: "forwards" },
       );
       document.getElementById(`string${i}`)?.animate(
         [
@@ -106,7 +106,7 @@ setTimeout(() => {
         ],
         { duration: 1600, fill: "forwards" },
       );
-    }, i * 800);
+    }, i * 400);
   }
 }, 100);
 </script>
