@@ -21,7 +21,7 @@
           v-for="i in bannerCount"
           @click="i === 9 ? reload() : ''"
           :id="`banner${i}`"
-          class="relative flex h-16 w-96 flex-col items-center justify-center overflow-visible rounded bg-gradient-to-tr from-[#c69874] from-[20%] to-[#b4afab]"
+          class="fixTop relative flex h-16 w-96 flex-col items-center justify-center overflow-visible rounded bg-gradient-to-tr from-[#c69874] from-[20%] to-[#b4afab]"
           :style="{
             transformStyle: 'preserve-3d',
             transform: 'rotateX(-90deg) perspective(100px)',
