@@ -65,12 +65,12 @@ setTimeout(() => {
           },
 
           {
-            transform: "rotateX(8deg) rotateZ(0.25deg) perspective(100px)",
+            transform: "rotateX(16deg) rotateZ(0.25deg) perspective(100px)",
             marginTop: "16px",
             offset: 0.3,
           },
           {
-            transform: "rotateX(-8deg) rotateZ(-0.25deg) perspective(100px)",
+            transform: "rotateX(-16deg) rotateZ(-0.25deg) perspective(100px)",
             marginTop: "16px",
             offset: 0.475,
           },
