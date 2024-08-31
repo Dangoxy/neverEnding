@@ -11,7 +11,7 @@ import P07DropdownMenu from "./views/P07DropdownMenu.vue";
 import P08AnimatingClock from "./views/P08AnimatingClock.vue";
 import P09HeadsOrTails from "./views/P09HeadsOrTails.vue";
 import P10FoldingBannners from "./views/P10FoldingBannners.vue";
-import P11CollapsingText from "./views/P11CollapsingText.vue";
+import P11CollapsingPoints from "./views/P11CollapsingPoints.vue";
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -28,7 +28,11 @@ const router = createRouter({
     { name: "p8", path: "/08-Animating-clock", component: P08AnimatingClock },
     { name: "p9", path: "/09-Heads-or-Tails", component: P09HeadsOrTails },
     { name: "p10", path: "/10-Folding-banners", component: P10FoldingBannners },
-    { name: "p11", path: "/11-Collapsing-text", component: P11CollapsingText },
+    {
+      name: "p11",
+      path: "/11-Collapsing-text",
+      component: P11CollapsingPoints,
+    },
   ],
 });
 export default router;

@@ -72,10 +72,10 @@ let projectsData = [
 
   {
     projectNumber: "11",
-    title: "Collapsing text",
-    pathToGif: "../../public/CollapsingText/CollapsingText.gif",
-    pathToImg: "../../public/CollapsingText/CollapsingText.png",
-    toPath: "/11-Collapsing-text",
+    title: "Collapsing points",
+    pathToGif: "../../public/CollapsingPoints/CollapsingPoints.gif",
+    pathToImg: "../../public/CollapsingPoints/CollapsingPoints.png",
+    toPath: "/11-Collapsing-points",
   },
 ];
 
