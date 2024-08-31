@@ -64,11 +64,75 @@ let projectsData = [
   },
   {
     projectNumber: "10",
-    title: "Folding banners",
-    pathToGif: "../../public/FoldingBanners/FoldingBanners.gif",
-    pathToImg: "../../public/FoldingBanners/FoldingBanners.png",
-    toPath: "/10-Folding-banners",
+    title: "Collapsing banners",
+    pathToGif: "../../public/CollapsingBanners/CollapsingBanners.gif",
+    pathToImg: "../../public/CollapsingBanners/CollapsingBanners.png",
+    toPath: "/10-Collapsing-banners",
+  },
+
+  {
+    projectNumber: "11",
+    title: "Folding text",
+    pathToGif: "../../public/FoldingText/FoldingText.gif",
+    pathToImg: "../../public/FoldingText/FoldingText.png",
+    toPath: "/11-Folding-text",
   },
 ];
 
-export { projectsData };
+let lorem = [
+  `Lorem ipsum odor amet, consectetuer adipiscing elit. Convallis aptent
+          varius, elit vitae cubilia fringilla maecenas. Penatibus aptent
+          venenatis montes faucibus tempus. Vitae eget nam rhoncus facilisi
+          congue phasellus molestie. Blandit consectetur dolor mus aenean semper
+          at, ut taciti. Amet ex torquent luctus pellentesque netus, a et nam
+          sollicitudin. Nulla adipiscing condimentum nullam non eros eleifend.
+          Tortor pretium varius aenean nisi finibus. Sociosqu commodo ut nisi
+          magna lacus sapien a blandit. Rutrum dapibus dis magnis primis neque
+          nisi eros viverra viverra. Ultrices morbi viverra at a litora
+          vulputate netus conubia in. Elit augue arcu gravida pulvinar a
+          ridiculus. Aptent euismod montes venenatis quam orci ligula hendrerit
+          est consectetur. Purus odio class rhoncus a fermentum odio elit
+          molestie. Sagittis hac ultrices adipiscing, placerat litora mollis.`,
+  `Lorem ipsum odor amet, consectetuer adipiscing elit. Convallis aptent
+          varius, elit vitae cubilia fringilla maecenas. Penatibus aptent
+          venenatis montes faucibus tempus. Vitae eget nam rhoncus facilisi
+          congue phasellus molestie. Blandit consectetur dolor mus aenean semper
+          at, ut taciti. Amet ex torquent luctus pellentesque netus, a et nam
+          sollicitudin. Nulla adipiscing condimentum nullam non eros eleifend.
+          Tortor pretium varius aenean nisi finibus. Sociosqu commodo ut nisi
+          magna lacus sapien a blandit. Rutrum dapibus dis magnis primis neque
+          nisi eros viverra viverra. Ultrices morbi viverra at a litora
+          vulputate netus conubia in. Elit augue arcu gravida pulvinar a
+          ridiculus. Aptent euismod montes venenatis quam orci ligula hendrerit.
+          `,
+  `Lorem ipsum odor amet, consectetuer adipiscing elit. Convallis aptent
+          varius, elit vitae cubilia fringilla maecenas. Penatibus aptent
+          venenatis montes faucibus tempus. Vitae eget nam rhoncus facilisi
+          congue phasellus molestie. Blandit consectetur dolor mus aenean semper
+          at, ut taciti. Amet ex torquent luctus pellentesque netus, a et nam
+          sollicitudin. Nulla adipiscing condimentum nullam non eros eleifend.
+          Tortor pretium varius aenean nisi finibus. Sociosqu commodo ut nisi
+          magna lacus sapien a blandit. Rutrum dapibus dis magnis primis neque
+          nisi eros viverra viverra. Ultrices morbi viverra at a litora.
+          `,
+  `Lorem ipsum odor amet, consectetuer adipiscing elit. Convallis aptent
+          varius, elit vitae cubilia fringilla maecenas. Penatibus aptent
+          venenatis montes faucibus tempus. Vitae eget nam rhoncus facilisi
+          congue phasellus molestie. Blandit consectetur dolor mus aenean semper
+          at, ut taciti. Amet ex torquent luctus pellentesque netus, a et nam
+          sollicitudin. Nulla adipiscing condimentum nullam non eros eleifend.
+          Tortor pretium varius aenean nisi finibus. Sociosqu commodo ut nisi.
+          `,
+  `Lorem ipsum odor amet, consectetuer adipiscing elit. Convallis aptent
+          varius, elit vitae cubilia fringilla maecenas. Penatibus aptent
+          venenatis montes faucibus tempus. Vitae eget nam rhoncus facilisi
+          congue phasellus molestie. Blandit consectetur dolor mus aenean semper
+          at, ut taciti. Amet ex torquent luctus pellentesque netus, a et nam.
+          `,
+  `Lorem ipsum odor amet, consectetuer adipiscing elit. Convallis aptent
+          varius, elit vitae cubilia fringilla maecenas. Penatibus aptent
+          venenatis montes faucibus tempus. Vitae eget nam rhoncus facilisi.
+          `,
+];
+
+export { projectsData, lorem };
