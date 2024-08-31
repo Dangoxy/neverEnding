@@ -30,7 +30,7 @@ const router = createRouter({
     { name: "p10", path: "/10-Folding-banners", component: P10FoldingBannners },
     {
       name: "p11",
-      path: "/11-Collapsing-text",
+      path: "/11-Collapsing-points",
       component: P11CollapsingPoints,
     },
   ],
