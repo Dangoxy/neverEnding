@@ -11,7 +11,7 @@ import P07DropdownMenu from "./views/P07DropdownMenu.vue";
 import P08AnimatingClock from "./views/P08AnimatingClock.vue";
 import P09HeadsOrTails from "./views/P09HeadsOrTails.vue";
 import P10FoldingBannners from "./views/P10FoldingBannners.vue";
-import P11CollapsingText from "./views/P11collapsingText.vue";
+import P11CollapsingText from "./views/P11CollapsingText.vue";
 
 const router = createRouter({
   history: createWebHashHistory(),

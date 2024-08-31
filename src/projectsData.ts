@@ -64,18 +64,18 @@ let projectsData = [
   },
   {
     projectNumber: "10",
-    title: "Collapsing banners",
-    pathToGif: "../../public/CollapsingBanners/CollapsingBanners.gif",
-    pathToImg: "../../public/CollapsingBanners/CollapsingBanners.png",
-    toPath: "/10-Collapsing-banners",
+    title: "Folding banners",
+    pathToGif: "../../public/FoldingBanners/FoldingBanners.gif",
+    pathToImg: "../../public/FoldingBanners/FoldingBanners.png",
+    toPath: "/10-Folding-banners",
   },
 
   {
     projectNumber: "11",
-    title: "Folding text",
-    pathToGif: "../../public/FoldingText/FoldingText.gif",
-    pathToImg: "../../public/FoldingText/FoldingText.png",
-    toPath: "/11-Folding-text",
+    title: "Collapsing text",
+    pathToGif: "../../public/CollapsingText/CollapsingText.gif",
+    pathToImg: "../../public/CollapsingText/CollapsingText.png",
+    toPath: "/11-Collapsing-text",
   },
 ];
 
