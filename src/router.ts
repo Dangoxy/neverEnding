@@ -28,7 +28,7 @@ const router = createRouter({
     { name: "p8", path: "/08-Animating-clock", component: P08AnimatingClock },
     { name: "p9", path: "/09-Heads-or-Tails", component: P09HeadsOrTails },
     { name: "p10", path: "/10-Folding-banners", component: P10FoldingBannners },
-    { name: "p11", path: "/11-Folding-text", component: P11CollapsingText },
+    { name: "p11", path: "/11-Collapsing-text", component: P11CollapsingText },
   ],
 });
 export default router;
