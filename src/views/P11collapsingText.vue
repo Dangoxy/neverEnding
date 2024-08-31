@@ -8,14 +8,14 @@
     >
       <div v-for="(i, index) in lorem" class="w-full">
         <div
-          class="flex w-32 items-center justify-between"
+          class="flex w-40 cursor-pointer items-center justify-between"
           @click="
             trigsForLorem[index].open = !trigsForLorem[index].open;
             getHeight(index, false);
           "
         >
-          <h1 class="poppins w-fit text-[32px] font-bold italic">
-            {{ trigsForLorem[index].title }}
+          <h1 class="poppins w-fit cursor-pointer text-[32px] font-bold italic">
+            - {{ trigsForLorem[index].title }}
           </h1>
           <div class="relative size-4">
             <div
