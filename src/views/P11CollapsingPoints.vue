@@ -36,7 +36,7 @@
             :id="'par' + index"
             class="z-10 overflow-hidden opacity-100 transition-all duration-500"
           >
-            {{ i + "asd" }}
+            {{ i }}
           </p>
           <p
             :id="'parinvis' + index"
